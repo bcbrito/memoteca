@@ -13,7 +13,7 @@
       id="pensamento"
       name="pensamento"
       placeholder="Digite um pensamento.."
-      [value]="pensamentos.conteudo"
+      [(ngModel)]="pensamentos.conteudo"
     />
     <input
       type="text"
@@ -21,7 +21,7 @@
       id="autoria"
       name="autoria"
       placeholder="Digite a autoria ou fonte.."
-      [value]="pensamentos.autoria"
+      [(ngModel)]="pensamentos.autoria"
     />
     <label for="modelo">Selecione o modelo do card:</label>
     <div>
@@ -33,6 +33,7 @@
               id="modelo1"
               value="modelo1"
               name="modelo-card"
+              [(ngModel)]="pensamentos.modelo"
             />
             <div class="custom-radio">
               <span></span>
@@ -58,6 +59,7 @@
               id="modelo2"
               value="modelo2"
               name="modelo-card"
+              [(ngModel)]="pensamentos.modelo"
             />
             <div class="custom-radio">
               <span></span>
@@ -83,6 +85,7 @@
               id="modelo3"
               value="modelo2"
               name="modelo-card"
+              [(ngModel)]="pensamentos.modelo"
             />
             <div class="custom-radio">
               <span></span>
@@ -105,7 +108,7 @@
     </div>
     <div class="acoes">
       <button (click)="CriarPensamentoComponent()" class="botao">Salvar</button>
-      <button class="botao">Cancelar</button>
+      <button (click)="CancelarComponent()" class="botao">Cancelar</button>
     </div>
   </form>
 </section>

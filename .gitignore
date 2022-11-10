@@ -40,3 +40,8 @@ testem.log
 # System files
 .DS_Store
 Thumbs.db
+
+# 1 - criei uma pasta backend
+# 2 - acessar a pasta backend
+# 3 - criei uma api fake com o comando npm i json-server
+backend/node_modules/*

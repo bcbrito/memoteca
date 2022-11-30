@@ -45,3 +45,10 @@ Thumbs.db
 # 2 - acessar a pasta backend
 # 3 - criei uma api fake com o comando npm i json-server
 backend/node_modules/*
+.vs/slnx.sqlite
+.vs/VSWorkspaceState.json
+.vs/memoteca/FileContentIndex/d9a42015-d799-4b7a-b8b0-a713b7c9bbbd.vsidx
+.vs/memoteca/FileContentIndex/read.lock
+.vs/memoteca/config/applicationhost.config
+.vs/memoteca/v17/.wsuo
+package-lock.json

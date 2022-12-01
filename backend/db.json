@@ -1,22 +1,3 @@
 {
-  "pensamentos": [
-    {
-      "id": 1,
-      "conteudo": "Show de bola!",
-      "autoria": "Brito",
-      "modelo":"modelo1"
-    },
-    {
-      "id": 1,
-      "conteudo": "Show de bola!",
-      "autoria": "Brito",
-      "modelo":"modelo2"
-    },
-    {
-      "id": 1,
-      "conteudo": "Show de bola!",
-      "autoria": "Brito",
-      "modelo":"modelo3"
-    }
-  ]
+  "pensamentos": []
 }
